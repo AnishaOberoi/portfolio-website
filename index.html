@@ -9,6 +9,23 @@
 <link rel="icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 <body>
+  <nav class="navigation nav-fixed">
+    <div class="nav-width">
+      <div class="nav-brand"><a class="Link" href="/index.html">Anisha Oberoi</a></div>
+      <ul class="list-non-bullet nav-pills link-hover">
+        <li class="list-item-inline">
+          <a  class="Link" href= "index.html" >HOME </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="Link" href= "hobbies.html" >HOBBIES </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="Link" href= "blog.html" >BLOGS </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <include src="./header.html"></include>
   <div class="container">
 
     <div class="text">
@@ -27,39 +44,58 @@
     </div>
     <hr>
     <div class="skills">
-      <h2>My Skills🖋</h2>
-      <div class="skill-row">
-        <img class="laptop-img" src="images/laptop.png" alt="laptop-img">
-        <h3>Programming</h3>
-        <p class="code-skill-desc">I started learning to code when I was in class 11. I'm intermediate in C and C++. currently learning HTML5, CSS and JavaScript</p>
-      </div>
-      <div class="skill-row">
-        <img class="pasta-img" src="images/pasta.png" alt="pasta-img">
-        <h3>Cooking</h3>
-        <p>Started cooking during lockdown because of boredom, now making pasta and garlic bread has become my best skill.</p>
-      </div>
-      <div class="skill-row">
-        <img class="drawing-img" src="images/draw.png" alt="drawing-img">
-        <h3>Drawing</h3>
-        <p>I usually draw mandalas whenever I feel stressed, it helps me relax my mind</p>
-      </div>
+      <h2>My Skills and Achievemnts🖋</h2>
+      <p class = "mySkills"> I've learnt how to code in C and C++. I also know the basics of Python, HTML5, CSS
+      Along with this, I'm also a beginner level in Game Development with Unity</p>
     </div>
     <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Let's Connect!!</h3>
-      <p>If you ever want to chat(or play video games😋) you can find me on social media or message me here.</p>
-      <a class="btn" href="mailto:reach.anishaoberoi@gmail.com">CONTACT ME</a>
+    <div class="hobbies">
+      <h2>My Hobbies</h2>
+      <p class = "myHobbies"> Here are some of the things I like to do to utilize my free time </p>
+
+      <a class="Link link-secondary" href="hobbies.html" target="_blank" rel="noopener noreferrer">My Hobbies</a>
+    </div>
+    <hr>
+    <div class="blogs">
+      <h2>Blogs</h2>
+      <p class = "myBlogs"> As the world is emerging towards digital technology, I like to explore and learn about them with every chance I get.
+      One of these is the Blockchain Technology.   </p>
+
+      <a class="Link link-secondary" href="blog.html" target="_blank" rel="noopener noreferrer">Blockchain related Blogs</a>
     </div>
   </div>
 
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/anisha-oberoi-5169081bb/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/AnishaOberoi1">Twitter</a>
-    <p>© 2021 Anisha Oberoi.</p>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Let's Connect!!</h3>
+      <p class="contact">If you ever want to chat(or play video games😋) you can find me on social media or message me here.</p>
+      <a class="btn" href="mailto:reach.anishaoberoi@gmail.com">CONTACT ME</a>
+    </div>
   </div>
+  <footer class="footer">
+         <ul class="social-links list-non-bullet icon">
+             <li class="list-item-inline">
+                 <a href="https://github.com/AnishaOberoi" target="_blank" rel="noopener noreferrer"><img
+                         style="height: 2.4rem; width: 2.4rem; margin: 1rem;" src="images/github.svg"
+                         title="Github"></a>
+             </li>
 
+             <li class="list-item-inline">
+                 <a href="https://www.linkedin.com/in/anisha-oberoi-5169081bb/" target="_blank" rel="noopener noreferrer"><img
+                         style="height: 2.3rem; width: 2.3rem; margin: 1rem;" src="images/linkedin.svg"
+                         title="LinkedIn"></a>
+             </li>
+             <li class="list-item-inline">
+                 <a href="https://twitter.com/AnishaOberoi1" target="_blank" rel="noopener noreferrer"><img
+                         style="height: 2.5rem; width: 2.5rem; margin: 1rem;" src="images/twitter.svg"
+                         title="Twitter"></a>
+             </li>
+
+         </ul>
+           <p>© 2021 Anisha Oberoi.</p>
+     </footer>
 
 
 
